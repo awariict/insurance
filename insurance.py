@@ -21,13 +21,16 @@ from sklearn.calibration import CalibratedClassifierCV
 # Streamlit Layout
 # -----------------------
 st.title("🚗 Insurance Claims Prediction Dashboard")
-st.markdown("Interactive ML tool for fraud detection, risk assessment, and data-driven decision-making.")
+st.markdown("""
 <style>
 .stApp { background: linear-gradient(to right, #28A745, #4CAF50, #8BC34A); }
 section[data-testid="stSidebar"] { background: #28A745 !important; }
+.sidebar-content { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 20px; }
+.sidebar-btn { width: 180px; height: 44px; background-color: white !important; color: #28A745 !important; font-weight: bold; border-radius: 8px; border: none; margin: 0 auto; display: block; }
 .big-font { font-size:20px !important; }
 .card { background: white; color: black !important; padding: 12px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); margin-bottom: 8px; }
 </style>
+""", unsafe_allow_html=True)
 # -----------------------
 # Step 1: Upload CSV
 # -----------------------
@@ -225,6 +228,7 @@ if uploaded_file:
                 st.warning("⚠️ Policyholder ID not found in dataset.")
         except:
             st.error("❌ Enter a valid numeric Policyholder ID.")
+
 
 
 
