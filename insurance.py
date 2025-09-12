@@ -22,6 +22,7 @@ from sklearn.calibration import CalibratedClassifierCV
 # -----------------------
 st.title("🚗 Insurance Claims Prediction Dashboard")
 st.markdown("Interactive ML tool for fraud detection, risk assessment, and data-driven decision-making.")
+<style>
 .stApp { background: linear-gradient(to right, #28A745, #4CAF50, #8BC34A); }
 section[data-testid="stSidebar"] { background: #28A745 !important; }
 .big-font { font-size:20px !important; }
@@ -224,5 +225,6 @@ if uploaded_file:
                 st.warning("⚠️ Policyholder ID not found in dataset.")
         except:
             st.error("❌ Enter a valid numeric Policyholder ID.")
+
 
 
