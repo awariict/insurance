@@ -208,15 +208,15 @@ if uploaded_file:
     # -----------------------
     st.header("🔍 Policyholder Lookup")
     id_column = "POSTAL_CODE" if "POSTAL_CODE" in df.columns else df.index.name
-    df["id"] = df[id_column] if id_column else df.index
+    df["_id_"] = df[id_column] if id_column else df.index
 
     search_id = st.text_input("Enter Policyholder Postal Code:")
 
     if search_id:
         try:
             search_id_int = int(search_id)
-            if search_id_int in df["id"].values:
-                person = df[df["id"] == search_id_int].iloc[0]
+            if search_id_int in df["_id_"].values:
+                person = df[df["_id_"] == search_id_int].iloc[0]
                 st.subheader(f"Policyholder: {search_id_int}")
                 st.metric("Predicted Claim Probability", f"{person['Claim_Prob']:.2%}")
                 st.metric("Risk Flag", person["Risk_Flag"])
@@ -228,6 +228,7 @@ if uploaded_file:
                 st.warning("⚠️ Policyholder ID not found in dataset.")
         except:
             st.error("❌ Enter a valid numeric Policyholder ID.")
+
 
 
 
