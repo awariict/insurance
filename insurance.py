@@ -202,7 +202,7 @@ if uploaded_file:
     id_column = "POSTAL_CODE" if "POSTAL_CODE" in df.columns else df.index.name
     df["_id_"] = df[id_column] if id_column else df.index
 
-    search_id = st.text_input("Enter Policyholder ID or Postal Code:")
+    search_id = st.text_input("Enter Policyholder Postal Code:")
 
     if search_id:
         try:
@@ -220,3 +220,4 @@ if uploaded_file:
                 st.warning("⚠️ Policyholder ID not found in dataset.")
         except:
             st.error("❌ Enter a valid numeric Policyholder ID.")
+
