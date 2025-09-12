@@ -23,7 +23,7 @@ from sklearn.calibration import CalibratedClassifierCV
 st.title("🚗 Insurance Claims Prediction Dashboard")
 st.markdown("""
 <style>
-.stApp { background: linear-gradient(to right, #28A745, #4CAF50, #8BC34A); }
+.stApp { background: linear-gradient(to right, #0043ce, #F4F6F9, #75cfff); }
 section[data-testid="stSidebar"] { background: #28A745 !important; }
 .sidebar-content { display: flex; flex-direction: column; align-items: center; gap: 12px; margin-top: 20px; }
 .sidebar-btn { width: 180px; height: 44px; background-color: white !important; color: #28A745 !important; font-weight: bold; border-radius: 8px; border: none; margin: 0 auto; display: block; }
@@ -228,6 +228,7 @@ if uploaded_file:
                 st.warning("⚠️ Policyholder ID not found in dataset.")
         except:
             st.error("❌ Enter a valid numeric Policyholder ID.")
+
 
 
 
