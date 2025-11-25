@@ -1,5 +1,5 @@
 # =========================================
-# Insurance Claims Prediction Dashboard (Fixed - No SHAP)
+# Insurance Claims Prediction Dashboard (FINAL ERROR-FREE VERSION)
 # =========================================
 
 import streamlit as st
@@ -19,7 +19,7 @@ from sklearn.metrics import roc_curve, auc, confusion_matrix
 # -----------------------
 # Streamlit Layout
 # -----------------------
-st.title("🚗 Insurance Claims Prediction & Visualization Dashboard (Enhanced Version)")
+st.title("🚗 Insurance Claims Prediction & Visualization Dashboard (Final Version)")
 st.markdown("""
 <style>
 .stApp { background: linear-gradient(to right, #0043ce, #F4F6F9, #75cfff); }
@@ -30,7 +30,7 @@ section[data-testid="stSidebar"] { background: #28A745 !important; }
 # -----------------------
 # 1. Upload CSV
 # -----------------------
-uploaded_file = st.file_uploader("Upload CSV", type=["csv"])
+uploaded_file = st.file_uploader("Upload CSV File", type=["csv"])
 
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
@@ -46,9 +46,11 @@ if uploaded_file:
                             "INCOME", "VEHICLE_OWNERSHIP", "VEHICLE_YEAR", 
                             "MARRIED", "VEHICLE_TYPE"]
 
+    # Fill numeric columns
     for col in expected_numeric:
         df[col] = df[col].fillna(df[col].median()) if col in df else 0
 
+    # Fill categorical columns
     for col in expected_categorical:
         df[col] = df[col].fillna("Unknown") if col in df else "Unknown"
 
@@ -56,9 +58,12 @@ if uploaded_file:
     categorical_cols = df.select_dtypes(include="object").columns
     le = LabelEncoder()
     for col in categorical_cols:
-        df[col] = le.fit_transform(df[col])
+        try:
+            df[col] = le.fit_transform(df[col])
+        except:
+            df[col] = le.fit_transform(df[col].astype(str))
 
-    # Separate features and target
+    # Identify features and target
     if "OUTCOME" in df.columns:
         X = df.drop("OUTCOME", axis=1)
         y = df["OUTCOME"]
@@ -67,40 +72,49 @@ if uploaded_file:
         y = None
 
     # -----------------------
-    # 3. Train Ensemble Model
+    # 3. Train Model
     # -----------------------
     rf = RandomForestClassifier(n_estimators=300, random_state=42)
     svm = SVC(probability=True)
     log_reg = LogisticRegression(max_iter=1000)
 
-    model = VotingClassifier(
+    ensemble_model = VotingClassifier(
         estimators=[("rf", rf), ("svm", svm), ("lr", log_reg)],
         voting="soft"
     )
 
     if y is not None:
-        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-        model.fit(X_train, y_train)
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, test_size=0.2, random_state=42
+        )
+        ensemble_model.fit(X_train, y_train)
     else:
-        model.fit(X, np.zeros(X.shape[0]))
+        ensemble_model.fit(X, np.zeros(X.shape[0]))
 
     # -----------------------
     # 4. Predictions
     # -----------------------
-    df["Claim_Prob"] = model.predict_proba(X)[:, 1]
-    threshold = st.slider("Select Risk Threshold (%)", 50, 100, 80) / 100
-    df["Risk_Flag"] = df["Claim_Prob"].apply(lambda x: "High Risk" if x >= threshold else "Low Risk")
+    df["Claim_Prob"] = ensemble_model.predict_proba(X)[:, 1]
 
-    # -----------------------
-    # 5. Show Results
-    # -----------------------
-    st.header("📋 Prediction Output Table")
+    threshold = st.slider(
+        "Select Risk Threshold (%)", 50, 100, 80
+    ) / 100
+
+    df["Risk_Flag"] = df["Claim_Prob"].apply(
+        lambda x: "High Risk" if x >= threshold else "Low Risk"
+    )
+
+    st.header("📋 Prediction Table")
     st.dataframe(df)
 
-    st.download_button("Download Predictions", df.to_csv(index=False), "predictions.csv")
+    st.download_button(
+        "Download Predictions",
+        df.to_csv(index=False),
+        "Predictions.csv"
+    )
 
     # -----------------------
-    # 6. GROUP VISUALIZATION — Objective (v)
+    # 5. Demographic Visualizations (Objective v)
     # -----------------------
     st.header("📊 Policyholder Demographic Visualizations")
 
@@ -109,106 +123,123 @@ if uploaded_file:
 
     selected_demo = st.selectbox("Select a demographic variable:", demographic_columns)
 
-    fig_demo = px.box(df, x=selected_demo, y="Claim_Prob", color="Risk_Flag",
-                      title=f"Claim Probability by {selected_demo}")
+    fig_demo = px.box(
+        df, x=selected_demo, y="Claim_Prob", 
+        color="Risk_Flag",
+        title=f"Claim Probability by {selected_demo}"
+    )
     st.plotly_chart(fig_demo, use_container_width=True)
 
     # -----------------------
-    # 7. FRAUD SCATTERPLOT
+    # 6. Fraud Scatter Plot
     # -----------------------
     st.header("🚨 Fraud Detection Scatter Plot")
+
     fig_fraud = px.scatter(
-        df, x="Claim_Prob", y="ANNUAL_MILEAGE",
+        df,
+        x="Claim_Prob",
+        y="ANNUAL_MILEAGE",
         color="Risk_Flag",
-        title="Fraud Risk Analysis",
-        hover_data=df.columns
+        hover_data=df.columns,
+        title="Fraud Risk Distribution"
     )
     st.plotly_chart(fig_fraud, use_container_width=True)
 
     # -----------------------
-    # 8. CORRELATION MATRIX — Objective (iv)
+    # 7. Correlation Matrix (Objective iv) — FIXED
     # -----------------------
-    st.header("🔎 Correlation Matrix (Key Risk Feature Aggregation)")
+    st.header("🔎 Correlation Matrix (Numeric Only)")
 
-    corr = df.corr()
-    fig_corr, ax = plt.subplots(figsize=(12, 6))
-    sns.heatmap(corr, cmap="coolwarm", ax=ax)
-    st.pyplot(fig_corr)
+    numeric_df = df.select_dtypes(include=["number"])  # FIXED
+
+    if numeric_df.shape[1] > 1:
+        corr = numeric_df.corr()
+
+        fig_corr, ax = plt.subplots(figsize=(12, 6))
+        sns.heatmap(corr, cmap="coolwarm", ax=ax)
+        st.pyplot(fig_corr)
+    else:
+        st.warning("Not enough numeric columns for correlation analysis.")
 
     # -----------------------
-    # 9. FEATURE IMPORTANCE — Objective (iv)
+    # 8. Feature Importance (Objective iv) — FIXED
     # -----------------------
-    st.header("📌 Random Forest Feature Importance (Top Predictors)")
+    st.header("📌 Random Forest Feature Importance")
 
-    rf.fit(X, y)
+    numeric_X = X.select_dtypes(include=["number"])  # FIXED
+    rf.fit(numeric_X, y)
+
     importances = pd.DataFrame({
-        "Feature": X.columns,
+        "Feature": numeric_X.columns,
         "Importance": rf.feature_importances_
     }).sort_values(by="Importance", ascending=False)
 
     st.dataframe(importances.head(10))
 
-    fig_imp = px.bar(importances.head(10), x="Feature", y="Importance",
-                     title="Top 10 Most Important Risk Factors")
+    fig_imp = px.bar(
+        importances.head(10),
+        x="Feature",
+        y="Importance",
+        title="Top 10 Most Important Features"
+    )
     st.plotly_chart(fig_imp)
 
     # -----------------------
-    # 10. MODEL PERFORMANCE
+    # 9. Model Performance
     # -----------------------
     if y is not None:
-        st.header("📈 Model Evaluation Metrics")
+        st.header("📈 Model Evaluation")
 
-        y_pred = model.predict(X_test)
+        y_pred = ensemble_model.predict(X_test)
 
-        # Confusion Matrix
+        # Confusion matrix
         cm = confusion_matrix(y_test, y_pred)
         fig_cm, ax = plt.subplots()
         sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", ax=ax)
         st.pyplot(fig_cm)
 
-        # ROC Curve
-        y_probs = model.predict_proba(X_test)[:, 1]
+        # ROC curve
+        y_probs = ensemble_model.predict_proba(X_test)[:, 1]
         fpr, tpr, _ = roc_curve(y_test, y_probs)
         roc_auc = auc(fpr, tpr)
 
         fig_roc = plt.figure()
         plt.plot(fpr, tpr, label=f"AUC = {roc_auc:.3f}")
         plt.plot([0, 1], [0, 1], "k--")
-        plt.xlabel("False Positive Rate")
-        plt.ylabel("True Positive Rate")
         plt.title("ROC Curve")
         plt.legend()
         st.pyplot(fig_roc)
 
     # -----------------------
-    # 11. HIGH-RISK LIST
+    # 10. High-Risk Customers
     # -----------------------
     st.header("🚨 Top 10 High-Risk Policyholders")
+
     top_risk = df.sort_values("Claim_Prob", ascending=False).head(10)
     st.dataframe(top_risk)
 
-    st.download_button("Download High-Risk List", top_risk.to_csv(index=False),
-                       "HighRiskPolicyholders.csv")
+    st.download_button(
+        "Download High-Risk Customers",
+        top_risk.to_csv(index=False),
+        "HighRisk.csv"
+    )
 
     # -----------------------
-    # 12. LOOKUP SYSTEM
+    # 11. Lookup System
     # -----------------------
-    st.header("🔍 Policyholder Lookup Tool")
+    st.header("🔍 Policyholder Lookup")
 
-    if "POSTAL_CODE" in df.columns:
-        df["_ID_"] = df["POSTAL_CODE"]
-    else:
-        df["_ID_"] = df.index
+    df["_ID_"] = df["POSTAL_CODE"] if "POSTAL_CODE" in df else df.index
 
-    search = st.text_input("Enter Postal Code or Index:")
+    search_id = st.text_input("Enter Postal Code or Index:")
 
-    if search:
+    if search_id:
         try:
-            search = int(search)
-            person = df[df["_ID_"] == search]
-            if len(person) > 0:
-                st.json(person.iloc[0].to_dict())
+            search_id = int(search_id)
+            result = df[df["_ID_"] == search_id]
+            if len(result) > 0:
+                st.json(result.iloc[0].to_dict())
             else:
                 st.warning("No matching policyholder found.")
         except:
-            st.error("Enter a valid number.")
+            st.error("Please enter a valid numeric ID.")
