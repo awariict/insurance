@@ -1,5 +1,5 @@
 # =========================================
-# Insurance Claims Prediction Dashboard (Upgraded)
+# Insurance Claims Prediction Dashboard (Fixed - No SHAP)
 # =========================================
 
 import streamlit as st
@@ -8,7 +8,6 @@ import numpy as np
 import plotly.express as px
 import seaborn as sns
 import matplotlib.pyplot as plt
-import shap
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -154,24 +153,7 @@ if uploaded_file:
     st.plotly_chart(fig_imp)
 
     # -----------------------
-    # 10. SHAP VALUES (Explanation)
-    # -----------------------
-    st.header("🧠 Explainability: SHAP Feature Impact (Optional)")
-
-    try:
-        explainer = shap.TreeExplainer(rf)
-        shap_values = explainer.shap_values(X)
-        st.write("SHAP Summary Plot:")
-
-        fig_shap = plt.figure()
-        shap.summary_plot(shap_values[1], X)
-        st.pyplot(fig_shap)
-
-    except Exception:
-        st.warning("SHAP could not be generated due to system limitations.")
-
-    # -----------------------
-    # 11. MODEL PERFORMANCE
+    # 10. MODEL PERFORMANCE
     # -----------------------
     if y is not None:
         st.header("📈 Model Evaluation Metrics")
@@ -199,7 +181,7 @@ if uploaded_file:
         st.pyplot(fig_roc)
 
     # -----------------------
-    # 12. HIGH-RISK LIST
+    # 11. HIGH-RISK LIST
     # -----------------------
     st.header("🚨 Top 10 High-Risk Policyholders")
     top_risk = df.sort_values("Claim_Prob", ascending=False).head(10)
@@ -209,7 +191,7 @@ if uploaded_file:
                        "HighRiskPolicyholders.csv")
 
     # -----------------------
-    # 13. LOOKUP SYSTEM
+    # 12. LOOKUP SYSTEM
     # -----------------------
     st.header("🔍 Policyholder Lookup Tool")
 
