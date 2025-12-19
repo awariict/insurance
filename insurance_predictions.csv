@@ -1,0 +1,241 @@
+ID,AGE,GENDER,RACE,DRIVING_EXPERIENCE,EDUCATION,INCOME,CREDIT_SCORE,VEHICLE_OWNERSHIP,VEHICLE_YEAR,MARRIED,CHILDREN,POSTAL_CODE,ANNUAL_MILEAGE,VEHICLE_TYPE,SPEEDING_VIOLATIONS,DUIS,PAST_ACCIDENTS,OUTCOME,Claim_Prob,Risk_Flag,Advice_to_Claimant,Advice_to_Insurer
+1,2,0,1,1,1,1,436,1,0,0,2.0,860675,15000.0,1,1,0,0,1,0.6895919714244023,Low Risk,Monitor driving habits,Fast-track claim
+2,3,1,1,2,1,3,846,0,0,1,2.0,553450,25000.0,3,0,0,2,1,0.8017168026794721,High Risk,Be prepared for review,Investigate for fraud
+3,0,0,0,3,0,2,812,1,0,0,3.0,387682,20000.0,3,1,0,1,1,0.7142319299646477,Low Risk,Monitor driving habits,Fast-track claim
+4,2,1,1,0,3,3,595,1,0,1,3.0,594510,20000.0,1,1,0,1,0,0.4756763868387354,Low Risk,Monitor driving habits,Fast-track claim
+5,2,1,0,0,3,1,619,1,0,1,1.0,964009,5000.0,2,0,0,1,0,0.45418790329535774,Low Risk,Monitor driving habits,Fast-track claim
+6,3,0,1,0,1,3,648,0,0,0,1.0,731811,5000.0,1,1,0,2,1,0.814309406839618,High Risk,Be prepared for review,Investigate for fraud
+7,0,1,0,2,1,1,528,0,0,1,2.0,646901,15000.0,3,0,0,0,0,0.4701700434072318,Low Risk,Monitor driving habits,Fast-track claim
+8,0,1,1,2,0,3,569,0,1,1,0.0,325050,25000.0,1,0,1,1,1,0.8177811511306117,High Risk,Be prepared for review,Investigate for fraud
+9,2,1,0,0,0,1,590,0,1,0,3.0,368616,20000.0,3,0,0,0,0,0.3276295889648224,Low Risk,Monitor driving habits,Fast-track claim
+10,1,1,0,3,3,1,464,1,0,1,1.0,266704,15000.0,1,0,0,0,0,0.4217006448735788,Low Risk,Monitor driving habits,Fast-track claim
+11,2,0,1,2,2,1,304,0,1,1,2.0,864358,15000.0,2,1,0,0,1,0.797100016184436,Low Risk,Monitor driving habits,Fast-track claim
+12,2,1,0,0,3,2,678,0,1,1,1.0,847420,10000.0,2,2,0,1,1,0.8095761284076599,High Risk,Be prepared for review,Investigate for fraud
+13,2,0,0,0,1,3,377,1,0,0,3.0,131349,5000.0,1,0,0,0,0,0.333689464767333,Low Risk,Monitor driving habits,Fast-track claim
+14,2,1,1,3,3,3,709,0,1,1,3.0,295805,25000.0,1,0,0,0,0,0.30767166481820934,Low Risk,Monitor driving habits,Fast-track claim
+15,3,1,0,1,2,3,431,1,1,1,1.0,887610,20000.0,2,1,0,0,1,0.8111796464890779,High Risk,Be prepared for review,Investigate for fraud
+16,0,1,0,2,0,1,341,1,1,1,0.0,235833,15000.0,3,1,1,0,1,0.7866850076164208,Low Risk,Monitor driving habits,Fast-track claim
+17,3,1,0,3,2,3,388,1,1,1,1.0,394924,20000.0,2,1,1,0,1,0.7994858094177907,Low Risk,Monitor driving habits,Fast-track claim
+18,3,0,1,0,2,3,701,1,1,0,2.0,383781,10000.0,3,0,0,0,0,0.3104440194483516,Low Risk,Monitor driving habits,Fast-track claim
+19,3,0,0,0,2,1,595,1,0,0,1.0,706178,25000.0,1,1,0,0,0,0.5646713725482404,Low Risk,Monitor driving habits,Fast-track claim
+20,2,1,1,3,0,0,594,1,0,1,2.0,153552,15000.0,1,3,0,1,1,0.6835267071180837,Low Risk,Monitor driving habits,Fast-track claim
+21,1,1,0,2,2,1,825,1,0,1,3.0,504773,20000.0,3,2,1,1,1,0.7956841056630308,Low Risk,Monitor driving habits,Fast-track claim
+22,0,0,0,1,2,3,721,1,1,0,1.0,766924,5000.0,1,0,1,0,1,0.6107890908335205,Low Risk,Monitor driving habits,Fast-track claim
+23,1,1,0,1,2,1,322,0,0,0,1.0,671108,10000.0,3,1,0,1,1,0.8271230163668705,High Risk,Be prepared for review,Investigate for fraud
+24,3,1,1,0,1,0,442,0,1,1,1.0,435915,25000.0,0,1,0,1,1,0.812686396285233,High Risk,Be prepared for review,Investigate for fraud
+25,3,1,0,2,2,1,444,0,1,0,2.0,520183,10000.0,2,3,0,0,1,0.7000904365769879,Low Risk,Monitor driving habits,Fast-track claim
+26,1,0,0,1,0,3,524,0,1,1,3.0,312782,5000.0,0,0,1,1,0,0.7815475540536904,Low Risk,Monitor driving habits,Fast-track claim
+27,1,0,1,2,2,0,802,1,1,0,1.0,553106,25000.0,3,1,0,0,1,0.6136421174905416,Low Risk,Monitor driving habits,Fast-track claim
+28,1,0,0,2,2,2,403,0,0,0,1.0,782348,10000.0,2,0,0,0,0,0.49051930610627315,Low Risk,Monitor driving habits,Fast-track claim
+29,3,1,1,0,0,3,338,1,0,0,2.0,965147,15000.0,3,4,0,0,1,0.8398416065870712,High Risk,Be prepared for review,Investigate for fraud
+30,3,1,1,1,2,0,497,0,1,0,1.0,813709,5000.0,2,0,0,2,1,0.8237723665182868,High Risk,Be prepared for review,Investigate for fraud
+31,0,0,0,3,0,0,690,0,0,1,0.0,648885,5000.0,2,2,0,0,0,0.6805250127200116,Low Risk,Monitor driving habits,Fast-track claim
+32,0,0,1,0,2,2,478,0,1,0,2.0,950539,5000.0,2,2,1,0,1,0.8131876401515669,High Risk,Be prepared for review,Investigate for fraud
+33,3,0,0,1,0,1,747,1,0,0,2.0,159183,15000.0,2,3,0,0,0,0.4642778613002301,Low Risk,Monitor driving habits,Fast-track claim
+34,1,0,1,1,2,1,799,0,0,1,3.0,449308,15000.0,3,1,0,1,0,0.4989610409666618,Low Risk,Monitor driving habits,Fast-track claim
+35,1,1,1,1,2,3,314,1,1,0,1.0,401455,20000.0,2,1,0,1,1,0.8510460934221061,High Risk,Be prepared for review,Investigate for fraud
+36,0,0,0,1,1,2,588,1,0,0,2.0,418233,15000.0,2,1,1,0,1,0.720051948707728,Low Risk,Monitor driving habits,Fast-track claim
+37,3,1,1,1,1,1,777,0,1,1,2.0,753092,10000.0,0,3,0,1,1,0.7783629812326214,Low Risk,Monitor driving habits,Fast-track claim
+38,0,0,1,2,2,2,530,0,0,0,1.0,239979,20000.0,1,3,0,0,0,0.5172406748969413,Low Risk,Monitor driving habits,Fast-track claim
+39,0,1,1,0,2,1,719,0,1,1,1.0,923347,10000.0,1,0,0,1,0,0.49089560763489276,Low Risk,Monitor driving habits,Fast-track claim
+40,2,0,1,2,3,0,456,1,1,1,0.0,996783,15000.0,0,0,0,1,1,0.815101718331179,High Risk,Be prepared for review,Investigate for fraud
+41,2,0,1,3,0,1,849,0,0,1,3.0,669668,15000.0,0,0,1,2,1,0.8214802702277834,High Risk,Be prepared for review,Investigate for fraud
+42,2,0,0,1,3,2,740,1,0,1,0.0,571829,15000.0,3,2,1,0,1,0.8146088403801116,High Risk,Be prepared for review,Investigate for fraud
+43,1,0,1,0,1,0,396,1,1,0,1.0,870189,15000.0,3,0,0,1,1,0.8318746711882946,High Risk,Be prepared for review,Investigate for fraud
+44,3,1,0,1,1,0,710,0,0,1,1.0,358518,15000.0,3,0,0,1,1,0.6745187870328099,Low Risk,Monitor driving habits,Fast-track claim
+45,3,0,1,0,1,0,588,0,0,0,1.0,540098,20000.0,0,0,0,1,0,0.4483121372449111,Low Risk,Monitor driving habits,Fast-track claim
+46,3,1,0,2,1,2,553,1,1,0,3.0,408558,25000.0,0,0,1,1,1,0.7596042391722162,Low Risk,Monitor driving habits,Fast-track claim
+47,3,1,0,0,2,3,495,1,1,0,1.0,237085,20000.0,2,0,1,1,1,0.8411019395430147,High Risk,Be prepared for review,Investigate for fraud
+48,2,1,1,3,1,3,821,1,0,0,3.0,805476,10000.0,3,0,0,0,0,0.2708401735157498,Low Risk,Monitor driving habits,Fast-track claim
+49,1,1,1,3,2,3,816,0,1,0,3.0,893584,20000.0,3,2,0,1,0,0.5699169142131254,Low Risk,Monitor driving habits,Fast-track claim
+50,1,0,1,0,2,2,417,1,1,0,3.0,682005,5000.0,3,1,0,1,1,0.8183887491848574,High Risk,Be prepared for review,Investigate for fraud
+51,2,1,0,0,1,0,458,0,1,0,3.0,980180,10000.0,1,0,0,0,1,0.535419417336072,Low Risk,Monitor driving habits,Fast-track claim
+52,1,1,1,0,1,3,527,1,0,0,3.0,848014,15000.0,2,0,1,0,1,0.6195070050223864,Low Risk,Monitor driving habits,Fast-track claim
+53,2,1,0,0,0,2,515,1,0,0,1.0,791739,10000.0,3,1,0,0,0,0.4442169305378418,Low Risk,Monitor driving habits,Fast-track claim
+54,3,0,0,3,3,3,314,0,1,0,0.0,798013,25000.0,3,1,0,0,1,0.8472608373270557,High Risk,Be prepared for review,Investigate for fraud
+55,2,0,0,1,1,1,456,1,0,1,2.0,303503,15000.0,3,0,1,1,1,0.8472006608730843,High Risk,Be prepared for review,Investigate for fraud
+56,3,0,1,0,0,3,560,0,1,1,0.0,244540,15000.0,1,0,0,2,1,0.7828686045660467,Low Risk,Monitor driving habits,Fast-track claim
+57,3,0,1,0,0,3,456,0,0,1,3.0,524227,10000.0,1,1,0,2,1,0.8468782201117614,High Risk,Be prepared for review,Investigate for fraud
+58,0,1,0,3,3,0,346,1,1,0,1.0,621864,15000.0,0,0,0,0,0,0.3997215876845752,Low Risk,Monitor driving habits,Fast-track claim
+59,2,1,0,3,2,2,623,0,1,1,1.0,222000,15000.0,2,2,0,0,1,0.7264138200065989,Low Risk,Monitor driving habits,Fast-track claim
+60,0,0,1,2,1,0,429,0,0,1,1.0,214794,15000.0,0,1,0,0,1,0.6698616783486315,Low Risk,Monitor driving habits,Fast-track claim
+61,2,1,0,0,3,0,710,1,1,1,3.0,557374,15000.0,2,3,0,1,1,0.7834046788729908,Low Risk,Monitor driving habits,Fast-track claim
+62,2,1,1,2,1,0,394,0,0,0,1.0,470322,20000.0,1,1,0,1,1,0.8019938505102387,High Risk,Be prepared for review,Investigate for fraud
+63,0,1,0,3,0,0,591,0,0,0,1.0,112290,15000.0,3,1,0,0,0,0.3598869550172088,Low Risk,Monitor driving habits,Fast-track claim
+64,0,0,1,3,0,0,582,0,1,0,3.0,800337,5000.0,0,0,0,1,1,0.6317859408512541,Low Risk,Monitor driving habits,Fast-track claim
+65,2,0,0,1,2,3,368,1,1,0,1.0,798957,25000.0,3,0,0,0,1,0.79622747357812,Low Risk,Monitor driving habits,Fast-track claim
+66,1,1,1,0,0,0,310,0,0,1,2.0,855802,15000.0,0,2,1,1,1,0.8613495613488591,High Risk,Be prepared for review,Investigate for fraud
+67,3,0,0,2,0,0,553,1,1,1,2.0,357369,10000.0,1,0,1,1,1,0.7882334181833212,Low Risk,Monitor driving habits,Fast-track claim
+68,0,0,1,3,3,2,849,1,1,1,1.0,186366,15000.0,1,1,0,0,0,0.3266559481534577,Low Risk,Monitor driving habits,Fast-track claim
+69,3,0,1,3,1,1,433,0,1,1,1.0,854951,10000.0,1,0,0,1,1,0.8301711535866089,High Risk,Be prepared for review,Investigate for fraud
+70,1,0,0,2,1,3,322,0,1,0,3.0,275212,15000.0,0,2,0,0,1,0.7276560740834416,Low Risk,Monitor driving habits,Fast-track claim
+71,1,0,0,1,3,3,645,0,1,0,2.0,279786,10000.0,2,0,0,0,0,0.3025583731625748,Low Risk,Monitor driving habits,Fast-track claim
+72,1,1,1,3,2,3,601,1,0,0,1.0,172589,15000.0,0,1,0,1,0,0.41704292369081664,Low Risk,Monitor driving habits,Fast-track claim
+73,0,0,0,0,1,0,662,0,0,1,1.0,163647,20000.0,2,2,0,0,1,0.668703233776998,Low Risk,Monitor driving habits,Fast-track claim
+74,1,1,1,3,0,0,695,0,1,0,1.0,365799,10000.0,0,0,0,0,0,0.25633762187671666,Low Risk,Monitor driving habits,Fast-track claim
+75,0,1,0,0,1,0,517,0,1,0,0.0,582239,10000.0,0,1,0,0,0,0.34321114205294845,Low Risk,Monitor driving habits,Fast-track claim
+76,1,0,1,2,0,2,440,0,1,1,2.0,905176,5000.0,1,0,0,2,1,0.8481666000139284,High Risk,Be prepared for review,Investigate for fraud
+77,3,1,1,0,2,1,509,0,0,1,1.0,934801,10000.0,3,1,0,1,0,0.5857247788109471,Low Risk,Monitor driving habits,Fast-track claim
+78,3,1,1,2,3,0,759,1,1,0,3.0,845386,5000.0,3,0,0,2,1,0.7000477405375372,Low Risk,Monitor driving habits,Fast-track claim
+79,2,1,1,0,1,1,655,1,0,0,1.0,829533,25000.0,2,2,2,2,1,0.8592702971009719,High Risk,Be prepared for review,Investigate for fraud
+80,3,0,1,2,3,2,623,0,0,0,3.0,219736,15000.0,3,0,0,0,0,0.34729504195312116,Low Risk,Monitor driving habits,Fast-track claim
+81,2,0,1,0,1,3,432,0,0,0,1.0,255684,5000.0,0,1,0,0,1,0.6000102638403776,Low Risk,Monitor driving habits,Fast-track claim
+82,3,1,0,1,0,0,426,0,1,0,1.0,732260,20000.0,0,0,0,2,1,0.8589183243097996,High Risk,Be prepared for review,Investigate for fraud
+83,0,0,0,0,3,1,405,0,0,0,1.0,636438,15000.0,1,3,0,1,1,0.839732346746603,High Risk,Be prepared for review,Investigate for fraud
+84,3,0,0,0,1,1,677,1,1,1,1.0,462247,5000.0,1,2,0,2,1,0.8426927964069805,High Risk,Be prepared for review,Investigate for fraud
+85,2,0,1,1,0,0,350,0,0,1,0.0,421334,15000.0,3,1,0,0,1,0.8339290236225522,High Risk,Be prepared for review,Investigate for fraud
+86,2,0,1,3,3,3,328,1,1,1,3.0,863265,15000.0,2,0,0,1,1,0.8424229256528254,High Risk,Be prepared for review,Investigate for fraud
+87,1,1,1,3,3,3,761,1,0,0,1.0,957464,15000.0,3,1,0,1,0,0.5686639371762782,Low Risk,Monitor driving habits,Fast-track claim
+88,0,1,1,0,1,3,595,0,1,1,0.0,666957,25000.0,3,0,0,0,0,0.4628172144029395,Low Risk,Monitor driving habits,Fast-track claim
+89,3,0,0,1,1,2,596,1,0,0,3.0,506890,20000.0,3,3,1,1,1,0.8603169396363933,High Risk,Be prepared for review,Investigate for fraud
+90,1,0,0,0,1,1,706,1,1,0,1.0,712493,15000.0,3,1,0,0,0,0.45210941078409844,Low Risk,Monitor driving habits,Fast-track claim
+91,3,1,1,2,0,1,704,1,1,1,0.0,311831,15000.0,0,0,1,0,0,0.39952850445352767,Low Risk,Monitor driving habits,Fast-track claim
+92,3,1,0,2,1,1,645,1,1,0,2.0,296502,5000.0,2,0,0,1,1,0.5940601539799332,Low Risk,Monitor driving habits,Fast-track claim
+93,1,0,0,0,3,2,719,0,1,0,0.0,516886,15000.0,0,1,0,1,1,0.6728339358093111,Low Risk,Monitor driving habits,Fast-track claim
+94,1,1,1,3,3,1,481,0,0,1,0.0,265141,5000.0,2,1,0,2,1,0.8058644879190923,High Risk,Be prepared for review,Investigate for fraud
+95,1,0,0,3,1,2,300,1,0,1,3.0,844150,25000.0,1,1,0,0,1,0.8145938103029735,High Risk,Be prepared for review,Investigate for fraud
+96,1,0,1,0,1,3,670,0,1,1,1.0,240508,25000.0,3,1,0,0,1,0.7295573596457947,Low Risk,Monitor driving habits,Fast-track claim
+97,1,1,0,0,2,0,730,0,0,0,2.0,325161,10000.0,0,0,1,1,1,0.4332558589215407,Low Risk,Monitor driving habits,Fast-track claim
+98,3,1,1,2,3,1,608,0,1,1,1.0,283322,25000.0,2,0,0,0,0,0.3626434996624746,Low Risk,Monitor driving habits,Fast-track claim
+99,1,0,1,3,0,1,436,0,1,1,1.0,661673,10000.0,1,0,0,0,0,0.5184411741691605,Low Risk,Monitor driving habits,Fast-track claim
+100,0,0,1,0,2,3,501,0,0,0,0.0,621999,20000.0,1,1,0,0,0,0.4520093361030811,Low Risk,Monitor driving habits,Fast-track claim
+101,2,1,1,2,1,0,735,1,1,1,3.0,706218,5000.0,3,0,0,0,0,0.29538720271072516,Low Risk,Monitor driving habits,Fast-track claim
+102,1,0,0,3,1,2,612,0,1,1,3.0,700442,20000.0,2,1,0,2,1,0.8455898147501486,High Risk,Be prepared for review,Investigate for fraud
+103,1,1,1,1,3,0,416,0,0,1,1.0,859417,25000.0,0,2,0,0,1,0.7480485717946294,Low Risk,Monitor driving habits,Fast-track claim
+104,3,0,1,2,1,3,543,0,1,0,2.0,175389,20000.0,3,1,0,0,1,0.6980480040112033,Low Risk,Monitor driving habits,Fast-track claim
+105,1,1,1,3,0,3,836,0,1,0,1.0,655690,20000.0,0,1,1,4,1,0.7963605408212068,Low Risk,Monitor driving habits,Fast-track claim
+106,1,1,0,3,3,0,374,1,1,0,2.0,618728,20000.0,1,1,0,2,1,0.8475340126878135,High Risk,Be prepared for review,Investigate for fraud
+107,1,1,1,2,1,2,685,1,1,0,1.0,827192,25000.0,0,1,0,1,1,0.7355886663883746,Low Risk,Monitor driving habits,Fast-track claim
+108,3,0,0,1,3,2,509,1,0,1,1.0,743792,15000.0,0,0,1,1,1,0.8157235393368673,High Risk,Be prepared for review,Investigate for fraud
+109,1,0,1,2,1,1,774,1,0,0,1.0,332602,20000.0,3,0,1,0,0,0.40552213653873376,Low Risk,Monitor driving habits,Fast-track claim
+110,2,1,0,3,1,2,717,0,0,0,3.0,227835,10000.0,0,2,0,1,1,0.4984975404694933,Low Risk,Monitor driving habits,Fast-track claim
+111,3,0,0,0,1,0,646,1,1,1,0.0,134085,25000.0,3,3,0,0,1,0.8153643618836378,High Risk,Be prepared for review,Investigate for fraud
+112,2,1,1,0,0,3,828,0,1,1,0.0,351460,20000.0,1,1,1,0,0,0.47745881473419177,Low Risk,Monitor driving habits,Fast-track claim
+113,3,1,0,2,0,1,478,0,0,1,1.0,734930,15000.0,3,2,0,1,1,0.8329007278165933,High Risk,Be prepared for review,Investigate for fraud
+114,1,0,1,3,3,1,481,0,1,0,3.0,205112,25000.0,3,1,0,0,1,0.6283231183307922,Low Risk,Monitor driving habits,Fast-track claim
+115,2,0,1,0,1,3,324,0,1,0,2.0,549043,15000.0,2,3,0,2,1,0.8644372832653587,High Risk,Be prepared for review,Investigate for fraud
+116,3,1,1,3,1,2,479,0,1,0,3.0,529668,15000.0,0,1,1,2,1,0.8477632467044871,High Risk,Be prepared for review,Investigate for fraud
+117,0,0,0,2,0,3,800,1,1,1,0.0,762588,10000.0,1,0,1,0,1,0.7231947503635543,Low Risk,Monitor driving habits,Fast-track claim
+118,1,0,0,0,1,2,460,1,0,1,0.0,262983,20000.0,3,1,0,0,1,0.7946765120464437,Low Risk,Monitor driving habits,Fast-track claim
+119,3,1,1,3,0,3,476,1,0,0,3.0,398186,15000.0,1,2,0,0,0,0.4669791332434976,Low Risk,Monitor driving habits,Fast-track claim
+120,0,1,1,0,1,0,584,1,0,1,3.0,975353,15000.0,2,0,0,0,0,0.2989746706451038,Low Risk,Monitor driving habits,Fast-track claim
+121,3,0,0,2,3,2,362,0,1,1,0.0,427826,25000.0,0,1,0,0,1,0.8274536721701852,High Risk,Be prepared for review,Investigate for fraud
+122,0,1,1,3,1,0,455,1,0,1,2.0,334387,15000.0,3,4,0,0,1,0.8010469296477197,High Risk,Be prepared for review,Investigate for fraud
+123,1,1,1,0,1,1,768,0,0,0,1.0,443716,10000.0,0,0,0,1,0,0.28607650293904213,Low Risk,Monitor driving habits,Fast-track claim
+124,2,0,1,2,2,3,348,1,1,1,1.0,296554,10000.0,2,3,1,0,1,0.8608237428639582,High Risk,Be prepared for review,Investigate for fraud
+125,0,1,0,0,0,1,383,0,1,1,3.0,561793,5000.0,2,0,0,1,1,0.7469514473831144,Low Risk,Monitor driving habits,Fast-track claim
+126,3,1,0,0,1,1,660,0,0,0,1.0,601175,10000.0,1,0,1,0,0,0.4199657838670781,Low Risk,Monitor driving habits,Fast-track claim
+127,1,0,0,1,1,1,447,1,0,0,0.0,884626,15000.0,3,1,0,1,1,0.8511883079852806,High Risk,Be prepared for review,Investigate for fraud
+128,0,0,1,1,2,1,641,0,0,1,0.0,751845,15000.0,1,2,0,1,1,0.7271751051728289,Low Risk,Monitor driving habits,Fast-track claim
+129,3,1,1,2,2,3,775,0,0,1,3.0,295247,10000.0,2,1,0,0,0,0.3182708928743538,Low Risk,Monitor driving habits,Fast-track claim
+130,3,1,1,1,0,1,362,1,1,0,3.0,650449,25000.0,0,2,0,1,1,0.8452138565081665,High Risk,Be prepared for review,Investigate for fraud
+131,3,0,0,2,2,3,659,0,0,0,3.0,346243,5000.0,1,1,0,0,1,0.48330924165064904,Low Risk,Monitor driving habits,Fast-track claim
+132,0,0,1,1,3,3,626,1,0,1,2.0,611084,15000.0,1,0,0,0,0,0.28937013598553135,Low Risk,Monitor driving habits,Fast-track claim
+133,0,0,1,0,2,0,440,1,1,1,1.0,117634,5000.0,0,1,0,0,0,0.37321583430486954,Low Risk,Monitor driving habits,Fast-track claim
+134,0,0,1,2,3,2,514,1,0,1,3.0,903447,15000.0,1,0,0,1,0,0.5065361932016627,Low Risk,Monitor driving habits,Fast-track claim
+135,2,1,1,2,0,2,734,0,1,1,1.0,966965,25000.0,0,0,0,0,0,0.363745403050433,Low Risk,Monitor driving habits,Fast-track claim
+136,0,0,0,0,0,3,617,0,1,0,1.0,149105,5000.0,3,1,0,0,0,0.39534557201326836,Low Risk,Monitor driving habits,Fast-track claim
+137,0,0,0,2,0,0,331,0,1,1,0.0,963664,20000.0,0,2,0,0,1,0.8388189917980035,High Risk,Be prepared for review,Investigate for fraud
+138,0,1,1,2,0,3,584,1,0,1,1.0,168389,15000.0,3,0,0,0,0,0.3481316132405134,Low Risk,Monitor driving habits,Fast-track claim
+139,2,0,0,1,0,3,604,0,0,0,3.0,640303,15000.0,0,0,0,0,0,0.2990231693568413,Low Risk,Monitor driving habits,Fast-track claim
+140,0,1,0,2,3,3,728,1,1,1,1.0,192579,15000.0,2,1,1,1,1,0.7925930693845425,Low Risk,Monitor driving habits,Fast-track claim
+141,3,0,1,3,3,0,776,1,0,0,1.0,789116,20000.0,2,0,0,0,0,0.29688621732729686,Low Risk,Monitor driving habits,Fast-track claim
+142,0,0,1,0,0,2,585,0,0,1,0.0,664679,5000.0,3,0,1,0,1,0.7257263171950571,Low Risk,Monitor driving habits,Fast-track claim
+143,3,0,0,1,2,0,443,1,1,1,2.0,385856,20000.0,3,1,0,0,0,0.5913766221524558,Low Risk,Monitor driving habits,Fast-track claim
+144,3,1,1,1,1,1,723,0,1,0,1.0,191659,20000.0,2,2,0,1,1,0.6802114920805907,Low Risk,Monitor driving habits,Fast-track claim
+145,3,1,0,3,0,0,318,0,0,0,1.0,157994,5000.0,3,1,0,0,1,0.6844975529289559,Low Risk,Monitor driving habits,Fast-track claim
+146,2,0,1,0,2,0,317,0,1,1,2.0,305769,25000.0,0,3,0,0,1,0.8262160515766964,High Risk,Be prepared for review,Investigate for fraud
+147,2,1,0,0,1,0,670,0,0,1,1.0,258286,20000.0,0,0,0,1,0,0.3795952828922809,Low Risk,Monitor driving habits,Fast-track claim
+148,2,1,1,1,0,0,474,0,0,1,0.0,871149,20000.0,2,1,1,0,1,0.8148561037679153,High Risk,Be prepared for review,Investigate for fraud
+149,0,1,0,2,0,2,493,1,0,0,0.0,551001,25000.0,1,0,0,1,1,0.764645089963157,Low Risk,Monitor driving habits,Fast-track claim
+150,3,1,0,1,3,1,801,1,0,1,2.0,893854,20000.0,0,1,0,2,1,0.7672140377842616,Low Risk,Monitor driving habits,Fast-track claim
+151,2,1,0,0,1,2,412,1,1,0,3.0,842297,20000.0,3,1,0,0,1,0.6473544836369958,Low Risk,Monitor driving habits,Fast-track claim
+152,2,1,1,3,1,2,413,0,1,0,1.0,642016,20000.0,1,1,0,0,0,0.5427627943717507,Low Risk,Monitor driving habits,Fast-track claim
+153,0,0,0,1,2,0,521,0,1,1,3.0,998851,15000.0,1,1,0,0,0,0.546964770745073,Low Risk,Monitor driving habits,Fast-track claim
+154,2,0,0,0,3,3,563,0,1,0,1.0,628647,10000.0,0,1,1,1,1,0.7984834186016458,Low Risk,Monitor driving habits,Fast-track claim
+155,0,1,1,1,3,3,354,1,0,1,1.0,427253,25000.0,0,4,0,0,1,0.8253302629793532,High Risk,Be prepared for review,Investigate for fraud
+156,1,0,1,2,3,2,757,0,0,1,2.0,357682,20000.0,1,2,0,1,1,0.7279946941857093,Low Risk,Monitor driving habits,Fast-track claim
+157,2,0,0,1,3,2,461,1,1,1,2.0,194019,15000.0,1,1,0,0,0,0.5675791266457813,Low Risk,Monitor driving habits,Fast-track claim
+158,1,0,0,1,1,0,679,1,0,1,1.0,486602,25000.0,2,1,0,0,1,0.705562742794431,Low Risk,Monitor driving habits,Fast-track claim
+159,0,0,1,0,1,2,386,0,0,1,0.0,394055,15000.0,3,0,0,0,1,0.723222325835541,Low Risk,Monitor driving habits,Fast-track claim
+160,3,1,1,0,0,0,354,0,0,0,1.0,751177,15000.0,2,0,0,1,1,0.7869415603536908,Low Risk,Monitor driving habits,Fast-track claim
+161,2,0,1,0,0,3,775,1,1,0,1.0,329105,20000.0,0,0,0,0,0,0.2731542941256309,Low Risk,Monitor driving habits,Fast-track claim
+162,0,0,1,1,3,3,477,0,1,1,0.0,942187,15000.0,2,0,1,0,1,0.8146438833536632,High Risk,Be prepared for review,Investigate for fraud
+163,3,1,1,2,3,1,690,1,1,1,2.0,293511,15000.0,2,0,1,0,0,0.3537079637722352,Low Risk,Monitor driving habits,Fast-track claim
+164,3,1,0,3,3,3,648,0,0,0,1.0,209848,25000.0,2,1,0,1,1,0.7339592048564616,Low Risk,Monitor driving habits,Fast-track claim
+165,1,0,1,3,0,2,307,0,1,0,3.0,544718,25000.0,2,1,0,0,1,0.8127569805776501,High Risk,Be prepared for review,Investigate for fraud
+166,0,0,0,0,2,3,612,1,1,0,3.0,554163,15000.0,3,0,0,1,1,0.5789939815312382,Low Risk,Monitor driving habits,Fast-track claim
+167,3,0,0,0,2,0,742,0,1,0,1.0,924900,25000.0,3,2,0,0,1,0.7358586677666091,Low Risk,Monitor driving habits,Fast-track claim
+168,2,0,0,1,0,3,627,1,1,1,3.0,396038,15000.0,1,2,0,0,1,0.7077001349458479,Low Risk,Monitor driving habits,Fast-track claim
+169,2,0,1,3,0,1,353,0,1,1,1.0,176330,10000.0,0,0,0,1,1,0.7648292079745337,Low Risk,Monitor driving habits,Fast-track claim
+170,1,0,0,0,0,3,538,1,1,0,1.0,131008,15000.0,2,2,0,0,0,0.4994247288398359,Low Risk,Monitor driving habits,Fast-track claim
+171,3,1,0,2,0,0,528,1,0,1,3.0,794893,15000.0,1,1,0,1,0,0.5697271014508974,Low Risk,Monitor driving habits,Fast-track claim
+172,0,0,1,2,0,0,350,0,0,0,1.0,416398,25000.0,1,1,1,0,1,0.8243609315049665,High Risk,Be prepared for review,Investigate for fraud
+173,2,0,0,0,0,2,563,1,1,1,1.0,112324,15000.0,1,2,0,0,1,0.5996434430204819,Low Risk,Monitor driving habits,Fast-track claim
+174,3,1,0,0,3,3,717,0,1,0,0.0,997768,15000.0,3,0,0,0,0,0.3514366229698789,Low Risk,Monitor driving habits,Fast-track claim
+175,3,1,1,3,3,0,395,0,0,1,1.0,212357,25000.0,2,0,1,1,1,0.8335496846213313,High Risk,Be prepared for review,Investigate for fraud
+176,1,1,0,3,3,1,387,0,0,0,1.0,735233,10000.0,2,1,0,0,0,0.6056895746292034,Low Risk,Monitor driving habits,Fast-track claim
+177,2,1,0,1,3,2,377,1,1,0,1.0,304452,10000.0,0,1,0,1,1,0.7258203607721107,Low Risk,Monitor driving habits,Fast-track claim
+178,2,0,0,3,0,1,587,1,1,1,0.0,378601,25000.0,2,1,0,0,1,0.8115817302649462,High Risk,Be prepared for review,Investigate for fraud
+179,0,0,1,2,2,3,419,0,1,0,1.0,655656,5000.0,2,1,0,0,1,0.7156817580551281,Low Risk,Monitor driving habits,Fast-track claim
+180,2,0,1,2,1,3,790,0,1,1,2.0,154625,25000.0,1,1,0,0,1,0.6074484042024185,Low Risk,Monitor driving habits,Fast-track claim
+181,0,0,1,0,0,3,751,1,0,1,1.0,503323,25000.0,0,2,0,0,1,0.6530790104427623,Low Risk,Monitor driving habits,Fast-track claim
+182,2,0,0,3,1,2,799,0,1,0,1.0,334566,10000.0,2,0,0,1,0,0.4452925517542093,Low Risk,Monitor driving habits,Fast-track claim
+183,1,0,0,1,2,0,464,0,1,1,1.0,168009,10000.0,3,0,0,0,0,0.5214609310273558,Low Risk,Monitor driving habits,Fast-track claim
+184,2,1,1,2,3,2,481,1,1,1,0.0,477540,25000.0,2,0,1,1,1,0.8635427562402537,High Risk,Be prepared for review,Investigate for fraud
+185,0,0,0,2,2,1,768,0,1,1,1.0,216493,25000.0,1,2,0,0,0,0.5070892369242264,Low Risk,Monitor driving habits,Fast-track claim
+186,0,1,0,1,0,2,306,1,0,1,0.0,172241,25000.0,3,2,0,0,1,0.7972799759852621,Low Risk,Monitor driving habits,Fast-track claim
+187,1,1,1,1,3,1,629,0,0,1,3.0,426460,10000.0,1,0,1,0,0,0.3093750365089036,Low Risk,Monitor driving habits,Fast-track claim
+188,2,0,1,2,0,2,450,1,0,0,2.0,825948,25000.0,2,2,1,0,1,0.8545546667434075,High Risk,Be prepared for review,Investigate for fraud
+189,2,1,0,2,3,0,384,0,1,1,0.0,372901,25000.0,3,0,0,0,1,0.7404701891435878,Low Risk,Monitor driving habits,Fast-track claim
+190,1,0,0,1,1,1,446,0,1,1,3.0,561228,20000.0,0,2,0,0,0,0.5779847335137854,Low Risk,Monitor driving habits,Fast-track claim
+191,2,1,0,2,1,3,680,1,0,1,0.0,398523,5000.0,0,1,1,1,1,0.7827872185177883,Low Risk,Monitor driving habits,Fast-track claim
+192,2,0,1,0,1,3,847,0,1,1,0.0,235328,15000.0,3,0,2,1,1,0.8158991469544793,High Risk,Be prepared for review,Investigate for fraud
+193,0,1,1,0,2,2,584,1,1,1,2.0,749992,5000.0,3,0,0,1,0,0.5674054291565792,Low Risk,Monitor driving habits,Fast-track claim
+194,2,0,1,1,0,3,381,0,0,0,1.0,942982,20000.0,1,2,1,1,1,0.8669355077164494,High Risk,Be prepared for review,Investigate for fraud
+195,2,0,1,3,2,1,813,1,0,1,1.0,265576,15000.0,3,1,0,0,1,0.5838667640342746,Low Risk,Monitor driving habits,Fast-track claim
+196,1,0,0,1,1,3,822,1,0,0,0.0,960227,25000.0,1,1,0,0,0,0.41625403364472824,Low Risk,Monitor driving habits,Fast-track claim
+197,1,0,1,1,0,0,685,1,0,0,1.0,599500,20000.0,2,1,0,1,1,0.7395732990146945,Low Risk,Monitor driving habits,Fast-track claim
+198,3,0,1,3,1,0,770,1,1,0,3.0,593949,25000.0,1,1,1,0,1,0.6727442133871605,Low Risk,Monitor driving habits,Fast-track claim
+199,0,1,1,3,2,2,418,0,1,0,1.0,407258,10000.0,3,2,0,0,1,0.7304836388669206,Low Risk,Monitor driving habits,Fast-track claim
+200,2,1,1,3,2,1,695,0,0,1,1.0,698358,15000.0,3,2,0,0,1,0.6828797638374686,Low Risk,Monitor driving habits,Fast-track claim
+201,2,1,1,0,2,0,831,1,1,0,0.0,329190,20000.0,2,1,0,0,0,0.2877430546059197,Low Risk,Monitor driving habits,Fast-track claim
+202,3,0,0,2,1,0,560,1,0,0,0.0,498466,10000.0,3,0,1,0,0,0.6573199207242825,Low Risk,Monitor driving habits,Fast-track claim
+203,2,1,0,0,0,1,555,1,0,1,0.0,351052,20000.0,3,1,0,3,1,0.8293016462119023,High Risk,Be prepared for review,Investigate for fraud
+204,0,0,1,2,0,3,525,0,1,1,0.0,749830,20000.0,0,0,0,2,1,0.8356311152060499,High Risk,Be prepared for review,Investigate for fraud
+205,3,0,0,0,1,3,352,0,0,1,1.0,813937,10000.0,0,1,0,1,1,0.8467518179490168,High Risk,Be prepared for review,Investigate for fraud
+206,0,1,1,2,0,2,799,0,1,0,0.0,611779,15000.0,2,3,1,1,1,0.8328140789643391,High Risk,Be prepared for review,Investigate for fraud
+207,3,1,1,0,1,3,805,0,1,1,1.0,880642,5000.0,1,0,0,0,0,0.3532209117556461,Low Risk,Monitor driving habits,Fast-track claim
+208,3,0,0,3,0,1,663,1,1,1,1.0,371831,25000.0,0,1,0,0,1,0.7285559734888108,Low Risk,Monitor driving habits,Fast-track claim
+209,1,1,0,1,3,0,579,1,1,0,0.0,605630,20000.0,1,2,1,3,1,0.8527593937612986,High Risk,Be prepared for review,Investigate for fraud
+210,0,0,1,0,3,3,457,1,0,1,2.0,415508,25000.0,3,1,0,0,1,0.7368516012131986,Low Risk,Monitor driving habits,Fast-track claim
+211,2,0,1,2,2,2,358,0,1,1,3.0,459688,15000.0,0,2,0,0,1,0.7735184313554099,Low Risk,Monitor driving habits,Fast-track claim
+212,2,0,1,3,3,3,427,0,0,1,1.0,756022,10000.0,2,1,1,0,1,0.8410999797349309,High Risk,Be prepared for review,Investigate for fraud
+213,0,0,0,0,3,1,414,0,0,1,1.0,275916,25000.0,2,4,0,0,1,0.8373095252817192,High Risk,Be prepared for review,Investigate for fraud
+214,2,0,1,0,3,2,508,1,0,0,3.0,719962,10000.0,2,2,0,0,0,0.3915652867860078,Low Risk,Monitor driving habits,Fast-track claim
+215,2,1,1,3,1,3,825,1,0,1,2.0,554180,25000.0,0,1,0,0,0,0.3495955907726113,Low Risk,Monitor driving habits,Fast-track claim
+216,0,1,1,0,3,2,820,0,1,1,1.0,142829,5000.0,1,2,0,0,1,0.47321004583277676,Low Risk,Monitor driving habits,Fast-track claim
+217,3,0,0,1,3,1,536,1,1,0,1.0,935037,5000.0,3,0,1,1,1,0.7901584540983949,Low Risk,Monitor driving habits,Fast-track claim
+218,0,0,1,0,2,0,580,0,0,1,1.0,372671,5000.0,1,1,0,1,0,0.4234605262916471,Low Risk,Monitor driving habits,Fast-track claim
+219,3,1,1,1,3,1,658,0,0,0,0.0,955343,5000.0,1,1,0,0,0,0.28837452082472387,Low Risk,Monitor driving habits,Fast-track claim
+220,2,1,0,1,3,1,500,1,1,1,2.0,125593,5000.0,3,0,0,0,0,0.3071189712493119,Low Risk,Monitor driving habits,Fast-track claim
+221,2,0,1,3,0,1,577,0,0,0,1.0,391127,5000.0,3,1,0,0,0,0.41151906791057574,Low Risk,Monitor driving habits,Fast-track claim
+222,2,1,1,0,2,1,534,1,1,0,2.0,886640,10000.0,0,3,1,0,1,0.6242634968032156,Low Risk,Monitor driving habits,Fast-track claim
+223,1,0,0,3,2,0,793,0,0,0,0.0,332042,20000.0,0,1,0,1,0,0.39552195943134244,Low Risk,Monitor driving habits,Fast-track claim
+224,3,1,1,0,2,0,303,1,1,0,0.0,450878,25000.0,0,0,0,0,0,0.3884262944109204,Low Risk,Monitor driving habits,Fast-track claim
+225,1,0,0,0,2,2,741,1,0,1,1.0,854297,5000.0,0,0,0,0,0,0.2794255421654067,Low Risk,Monitor driving habits,Fast-track claim
+226,1,1,0,2,2,3,328,1,0,0,0.0,224983,10000.0,0,0,0,2,1,0.8068916313784354,High Risk,Be prepared for review,Investigate for fraud
+227,0,0,1,0,2,0,408,0,1,1,3.0,356912,10000.0,3,2,0,0,0,0.5346249643926791,Low Risk,Monitor driving habits,Fast-track claim
+228,1,1,1,3,1,0,374,0,0,0,1.0,168620,10000.0,1,4,1,2,1,0.7831027428954052,Low Risk,Monitor driving habits,Fast-track claim
+229,0,1,1,1,3,3,445,1,0,0,1.0,784689,20000.0,0,1,0,1,1,0.6608284181879581,Low Risk,Monitor driving habits,Fast-track claim
+230,0,0,1,0,2,0,427,1,1,0,2.0,408624,25000.0,0,1,1,2,1,0.8393955200816755,High Risk,Be prepared for review,Investigate for fraud
+231,1,1,0,2,3,1,341,0,0,1,3.0,601644,20000.0,1,1,0,0,0,0.6019673697478268,Low Risk,Monitor driving habits,Fast-track claim
+232,3,0,1,3,3,1,655,0,1,0,1.0,251176,15000.0,0,2,0,1,0,0.5318360814827131,Low Risk,Monitor driving habits,Fast-track claim
+233,3,1,0,0,1,3,340,0,1,1,0.0,270964,10000.0,1,1,0,0,1,0.7396164186860279,Low Risk,Monitor driving habits,Fast-track claim
+234,3,0,1,3,2,2,333,1,0,1,0.0,241827,15000.0,1,1,0,1,1,0.7923504461425206,Low Risk,Monitor driving habits,Fast-track claim
+235,3,1,1,2,0,2,316,0,0,1,0.0,855344,15000.0,3,2,0,0,1,0.8467261856587792,High Risk,Be prepared for review,Investigate for fraud
+236,3,0,1,2,1,3,452,0,0,1,0.0,967870,5000.0,2,0,0,0,1,0.6581974081355152,Low Risk,Monitor driving habits,Fast-track claim
+237,1,1,0,3,0,3,677,1,0,1,2.0,198541,5000.0,3,1,1,0,0,0.49754239791052157,Low Risk,Monitor driving habits,Fast-track claim
+238,1,0,1,0,3,1,641,0,0,1,3.0,959415,20000.0,2,2,0,0,0,0.5210938877030041,Low Risk,Monitor driving habits,Fast-track claim
+239,2,1,1,1,3,2,326,0,0,1,1.0,727036,25000.0,2,1,0,0,1,0.7710621732743569,Low Risk,Monitor driving habits,Fast-track claim
+240,3,0,1,2,1,0,586,0,0,1,2.0,286995,15000.0,2,1,0,0,1,0.6137846096473555,Low Risk,Monitor driving habits,Fast-track claim
