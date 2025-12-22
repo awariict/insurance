@@ -1,0 +1,241 @@
+ID,AGE,GENDER,RACE,DRIVING_EXPERIENCE,EDUCATION,INCOME,CREDIT_SCORE,VEHICLE_OWNERSHIP,VEHICLE_YEAR,MARRIED,CHILDREN,POSTAL_CODE,ANNUAL_MILEAGE,VEHICLE_TYPE,SPEEDING_VIOLATIONS,DUIS,PAST_ACCIDENTS,OUTCOME
+1,40-64,female,minority,10-19y,none,poverty,436,1,after 2015,0,2.0,860675,,sedan,1,0,0,1
+2,65+,male,minority,20-29y,none,working class,846,0,after 2015,1,2.0,553450,25000.0,truck,0,0,2,1
+3,16-25,female,majority,30y+,high school,upper class,812,1,after 2015,0,3.0,387682,20000.0,truck,1,0,1,1
+4,40-64,male,minority,0-9y,university,working class,595,1,after 2015,1,3.0,594510,20000.0,sedan,1,0,1,0
+5,40-64,male,majority,0-9y,university,poverty,619,1,after 2015,1,1.0,964009,5000.0,sports car,0,0,1,0
+6,65+,female,minority,0-9y,none,working class,648,0,after 2015,0,1.0,731811,5000.0,sedan,1,0,2,1
+7,16-25,male,majority,20-29y,none,poverty,528,0,after 2015,1,2.0,646901,,truck,0,0,0,0
+8,16-25,male,minority,20-29y,high school,working class,569,0,before 2015,1,0.0,325050,25000.0,sedan,0,1,1,1
+9,40-64,male,majority,0-9y,high school,poverty,590,0,before 2015,0,3.0,368616,20000.0,truck,0,0,0,0
+10,26-39,male,majority,30y+,university,poverty,464,1,after 2015,1,1.0,266704,,sedan,0,0,0,0
+11,40-64,female,minority,20-29y,postgraduate,poverty,304,0,before 2015,1,2.0,864358,,sports car,1,0,0,1
+12,40-64,male,majority,0-9y,university,upper class,678,0,before 2015,1,1.0,847420,10000.0,sports car,2,0,1,1
+13,40-64,female,majority,0-9y,none,working class,377,1,after 2015,0,3.0,131349,5000.0,sedan,0,0,0,0
+14,40-64,male,minority,30y+,university,working class,709,0,before 2015,1,3.0,295805,25000.0,sedan,0,0,0,0
+15,65+,male,majority,10-19y,postgraduate,working class,431,1,before 2015,1,,887610,20000.0,sports car,1,0,0,1
+16,16-25,male,majority,20-29y,high school,poverty,341,1,before 2015,1,0.0,235833,,truck,1,1,0,1
+17,65+,male,majority,30y+,postgraduate,working class,388,1,before 2015,1,,394924,20000.0,sports car,1,1,0,1
+18,65+,female,minority,0-9y,postgraduate,working class,701,1,before 2015,0,2.0,383781,10000.0,truck,0,0,0,0
+19,65+,female,majority,0-9y,postgraduate,poverty,595,1,after 2015,0,1.0,706178,25000.0,sedan,1,0,0,0
+20,40-64,male,minority,30y+,high school,middle class,594,1,after 2015,1,2.0,153552,,sedan,3,0,1,1
+21,26-39,male,majority,20-29y,postgraduate,poverty,825,1,after 2015,1,3.0,504773,20000.0,truck,2,1,1,1
+22,16-25,female,majority,10-19y,postgraduate,working class,721,1,before 2015,0,,766924,5000.0,sedan,0,1,0,1
+23,26-39,male,majority,10-19y,postgraduate,poverty,322,0,after 2015,0,,671108,10000.0,truck,1,0,1,1
+24,65+,male,minority,0-9y,none,middle class,442,0,before 2015,1,,435915,25000.0,SUV,1,0,1,1
+25,65+,male,majority,20-29y,postgraduate,poverty,444,0,before 2015,0,2.0,520183,10000.0,sports car,3,0,0,1
+26,26-39,female,majority,10-19y,high school,working class,524,0,before 2015,1,3.0,312782,5000.0,SUV,0,1,1,0
+27,26-39,female,minority,20-29y,postgraduate,middle class,802,1,before 2015,0,1.0,553106,25000.0,truck,1,0,0,1
+28,26-39,female,majority,20-29y,postgraduate,upper class,403,0,after 2015,0,1.0,782348,10000.0,sports car,0,0,0,0
+29,65+,male,minority,0-9y,high school,working class,338,1,after 2015,0,2.0,965147,15000.0,truck,4,0,0,1
+30,65+,male,minority,10-19y,postgraduate,middle class,497,0,before 2015,0,,813709,5000.0,sports car,0,0,2,1
+31,16-25,female,majority,30y+,high school,middle class,690,0,after 2015,1,0.0,648885,5000.0,sports car,2,0,0,0
+32,16-25,female,minority,0-9y,postgraduate,upper class,478,0,before 2015,0,2.0,950539,5000.0,sports car,2,1,0,1
+33,65+,female,majority,10-19y,high school,poverty,747,1,after 2015,0,2.0,159183,15000.0,sports car,3,0,0,0
+34,26-39,female,minority,10-19y,postgraduate,poverty,799,0,after 2015,1,3.0,449308,15000.0,truck,1,0,1,0
+35,26-39,male,minority,10-19y,postgraduate,working class,314,1,before 2015,0,1.0,401455,20000.0,sports car,1,0,1,1
+36,16-25,female,majority,10-19y,none,upper class,588,1,after 2015,0,2.0,418233,,sports car,1,1,0,1
+37,65+,male,minority,10-19y,none,poverty,777,0,before 2015,1,2.0,753092,10000.0,SUV,3,0,1,1
+38,16-25,female,minority,20-29y,postgraduate,upper class,530,0,after 2015,0,,239979,20000.0,sedan,3,0,0,0
+39,16-25,male,minority,0-9y,postgraduate,poverty,719,0,before 2015,1,,923347,10000.0,sedan,0,0,1,0
+40,40-64,female,minority,20-29y,university,middle class,456,1,before 2015,1,0.0,996783,,SUV,0,0,1,1
+41,40-64,female,minority,30y+,high school,poverty,849,0,after 2015,1,3.0,669668,15000.0,SUV,0,1,2,1
+42,40-64,female,majority,10-19y,university,upper class,740,1,after 2015,1,0.0,571829,,truck,2,1,0,1
+43,26-39,female,minority,0-9y,none,middle class,396,1,before 2015,0,,870189,15000.0,truck,0,0,1,1
+44,65+,male,majority,10-19y,none,middle class,710,0,after 2015,1,1.0,358518,,truck,0,0,1,1
+45,65+,female,minority,0-9y,none,middle class,588,0,after 2015,0,,540098,20000.0,SUV,0,0,1,0
+46,65+,male,majority,20-29y,none,upper class,553,1,before 2015,0,3.0,408558,25000.0,SUV,0,1,1,1
+47,65+,male,majority,0-9y,postgraduate,working class,495,1,before 2015,0,,237085,20000.0,sports car,0,1,1,1
+48,40-64,male,minority,30y+,none,working class,821,1,after 2015,0,3.0,805476,10000.0,truck,0,0,0,0
+49,26-39,male,minority,30y+,postgraduate,working class,816,0,before 2015,0,3.0,893584,20000.0,truck,2,0,1,0
+50,26-39,female,minority,0-9y,postgraduate,upper class,417,1,before 2015,0,3.0,682005,5000.0,truck,1,0,1,1
+51,40-64,male,majority,0-9y,none,middle class,458,0,before 2015,0,3.0,980180,10000.0,sedan,0,0,0,1
+52,26-39,male,minority,0-9y,none,working class,527,1,after 2015,0,3.0,848014,,sports car,0,1,0,1
+53,40-64,male,majority,0-9y,high school,upper class,515,1,after 2015,0,1.0,791739,10000.0,truck,1,0,0,0
+54,65+,female,majority,30y+,university,working class,314,0,before 2015,0,0.0,798013,25000.0,truck,1,0,0,1
+55,40-64,female,majority,10-19y,none,poverty,456,1,after 2015,1,2.0,303503,15000.0,truck,0,1,1,1
+56,65+,female,minority,0-9y,high school,working class,560,0,before 2015,1,0.0,244540,,sedan,0,0,2,1
+57,65+,female,minority,0-9y,high school,working class,456,0,after 2015,1,3.0,524227,10000.0,sedan,1,0,2,1
+58,16-25,male,majority,30y+,university,middle class,346,1,before 2015,0,1.0,621864,,SUV,0,0,0,0
+59,40-64,male,majority,30y+,postgraduate,upper class,623,0,before 2015,1,,222000,,sports car,2,0,0,1
+60,16-25,female,minority,20-29y,none,middle class,429,0,after 2015,1,1.0,214794,,SUV,1,0,0,1
+61,40-64,male,majority,0-9y,university,middle class,710,1,before 2015,1,3.0,557374,15000.0,sports car,3,0,1,1
+62,40-64,male,minority,20-29y,none,middle class,394,0,after 2015,0,1.0,470322,20000.0,sedan,1,0,1,1
+63,16-25,male,majority,30y+,high school,middle class,591,0,after 2015,0,1.0,112290,,truck,1,0,0,0
+64,16-25,female,minority,30y+,high school,middle class,582,0,before 2015,0,3.0,800337,5000.0,SUV,0,0,1,1
+65,40-64,female,majority,10-19y,postgraduate,working class,368,1,before 2015,0,1.0,798957,25000.0,truck,0,0,0,1
+66,26-39,male,minority,0-9y,high school,middle class,310,0,after 2015,1,2.0,855802,15000.0,SUV,2,1,1,1
+67,65+,female,majority,20-29y,high school,middle class,553,1,before 2015,1,2.0,357369,10000.0,sedan,0,1,1,1
+68,16-25,female,minority,30y+,university,upper class,849,1,before 2015,1,1.0,186366,15000.0,sedan,1,0,0,0
+69,65+,female,minority,30y+,none,poverty,433,0,before 2015,1,,854951,10000.0,sedan,0,0,1,1
+70,26-39,female,majority,20-29y,none,working class,322,0,before 2015,0,3.0,275212,15000.0,SUV,2,0,0,1
+71,26-39,female,majority,10-19y,university,working class,645,0,before 2015,0,2.0,279786,10000.0,sports car,0,0,0,0
+72,26-39,male,minority,30y+,postgraduate,working class,601,1,after 2015,0,,172589,,SUV,1,0,1,0
+73,16-25,female,majority,0-9y,none,middle class,662,0,after 2015,1,1.0,163647,20000.0,sports car,2,0,0,1
+74,26-39,male,minority,30y+,high school,middle class,695,0,before 2015,0,,365799,10000.0,SUV,0,0,0,0
+75,16-25,male,majority,0-9y,none,middle class,517,0,before 2015,0,0.0,582239,10000.0,SUV,1,0,0,0
+76,26-39,female,minority,20-29y,high school,upper class,440,0,before 2015,1,2.0,905176,5000.0,sedan,0,0,2,1
+77,65+,male,minority,0-9y,postgraduate,poverty,509,0,after 2015,1,1.0,934801,10000.0,truck,1,0,1,0
+78,65+,male,minority,20-29y,university,middle class,759,1,before 2015,0,3.0,845386,5000.0,truck,0,0,2,1
+79,40-64,male,minority,0-9y,none,poverty,655,1,after 2015,0,1.0,829533,25000.0,sports car,2,2,2,1
+80,65+,female,minority,20-29y,university,upper class,623,0,after 2015,0,3.0,219736,,truck,0,0,0,0
+81,40-64,female,minority,0-9y,none,working class,432,0,after 2015,0,1.0,255684,5000.0,SUV,1,0,0,1
+82,65+,male,majority,10-19y,high school,middle class,426,0,before 2015,0,,732260,20000.0,SUV,0,0,2,1
+83,16-25,female,majority,0-9y,university,poverty,405,0,after 2015,0,,636438,,sedan,3,0,1,1
+84,65+,female,majority,0-9y,none,poverty,677,1,before 2015,1,,462247,5000.0,sedan,2,0,2,1
+85,40-64,female,minority,10-19y,high school,middle class,350,0,after 2015,1,0.0,421334,,truck,1,0,0,1
+86,40-64,female,minority,30y+,university,working class,328,1,before 2015,1,3.0,863265,,sports car,0,0,1,1
+87,26-39,male,minority,30y+,university,working class,761,1,after 2015,0,,957464,,truck,1,0,1,0
+88,16-25,male,minority,0-9y,none,working class,595,0,before 2015,1,0.0,666957,25000.0,truck,0,0,0,0
+89,65+,female,majority,10-19y,none,upper class,596,1,after 2015,0,3.0,506890,20000.0,truck,3,1,1,1
+90,26-39,female,majority,0-9y,none,poverty,706,1,before 2015,0,1.0,712493,15000.0,truck,1,0,0,0
+91,65+,male,minority,20-29y,high school,poverty,704,1,before 2015,1,0.0,311831,15000.0,SUV,0,1,0,0
+92,65+,male,majority,20-29y,none,poverty,645,1,before 2015,0,2.0,296502,5000.0,sports car,0,0,1,1
+93,26-39,female,majority,0-9y,university,upper class,719,0,before 2015,0,0.0,516886,,SUV,1,0,1,1
+94,26-39,male,minority,30y+,university,poverty,481,0,after 2015,1,0.0,265141,5000.0,sports car,1,0,2,1
+95,26-39,female,majority,30y+,none,upper class,300,1,after 2015,1,3.0,844150,25000.0,sedan,1,0,0,1
+96,26-39,female,minority,0-9y,none,working class,670,0,before 2015,1,1.0,240508,25000.0,truck,1,0,0,1
+97,26-39,male,majority,0-9y,postgraduate,middle class,730,0,after 2015,0,2.0,325161,10000.0,SUV,0,1,1,1
+98,65+,male,minority,20-29y,university,poverty,608,0,before 2015,1,,283322,25000.0,sports car,0,0,0,0
+99,26-39,female,minority,30y+,high school,poverty,436,0,before 2015,1,,661673,10000.0,sedan,0,0,0,0
+100,16-25,female,minority,0-9y,postgraduate,working class,501,0,after 2015,0,0.0,621999,20000.0,sedan,1,0,0,0
+101,40-64,male,minority,20-29y,none,middle class,735,1,before 2015,1,3.0,706218,5000.0,truck,0,0,0,0
+102,26-39,female,majority,30y+,none,upper class,612,0,before 2015,1,3.0,700442,20000.0,sports car,1,0,2,1
+103,26-39,male,minority,10-19y,university,middle class,416,0,after 2015,1,,859417,25000.0,SUV,2,0,0,1
+104,65+,female,minority,20-29y,none,working class,543,0,before 2015,0,2.0,175389,20000.0,truck,1,0,0,1
+105,26-39,male,minority,30y+,high school,working class,836,0,before 2015,0,1.0,655690,20000.0,SUV,1,1,4,1
+106,26-39,male,majority,30y+,university,middle class,374,1,before 2015,0,2.0,618728,20000.0,sedan,1,0,2,1
+107,26-39,male,minority,20-29y,none,upper class,685,1,before 2015,0,1.0,827192,25000.0,SUV,1,0,1,1
+108,65+,female,majority,10-19y,university,upper class,509,1,after 2015,1,,743792,,SUV,0,1,1,1
+109,26-39,female,minority,20-29y,none,poverty,774,1,after 2015,0,1.0,332602,20000.0,truck,0,1,0,0
+110,40-64,male,majority,30y+,none,upper class,717,0,after 2015,0,3.0,227835,10000.0,SUV,2,0,1,1
+111,65+,female,majority,0-9y,none,middle class,646,1,before 2015,1,0.0,134085,25000.0,truck,3,0,0,1
+112,40-64,male,minority,0-9y,high school,working class,828,0,before 2015,1,0.0,351460,20000.0,sedan,1,1,0,0
+113,65+,male,majority,20-29y,high school,poverty,478,0,after 2015,1,,734930,,truck,2,0,1,1
+114,26-39,female,minority,30y+,university,poverty,481,0,before 2015,0,3.0,205112,25000.0,truck,1,0,0,1
+115,40-64,female,minority,0-9y,none,working class,324,0,before 2015,0,2.0,549043,15000.0,sports car,3,0,2,1
+116,65+,male,minority,30y+,none,upper class,479,0,before 2015,0,3.0,529668,,SUV,1,1,2,1
+117,16-25,female,majority,20-29y,high school,working class,800,1,before 2015,1,0.0,762588,10000.0,sedan,0,1,0,1
+118,26-39,female,majority,0-9y,none,upper class,460,1,after 2015,1,0.0,262983,20000.0,truck,1,0,0,1
+119,65+,male,minority,30y+,high school,working class,476,1,after 2015,0,3.0,398186,15000.0,sedan,2,0,0,0
+120,16-25,male,minority,0-9y,none,middle class,584,1,after 2015,1,3.0,975353,15000.0,sports car,0,0,0,0
+121,65+,female,majority,20-29y,university,upper class,362,0,before 2015,1,0.0,427826,25000.0,SUV,1,0,0,1
+122,16-25,male,minority,30y+,none,middle class,455,1,after 2015,1,2.0,334387,15000.0,truck,4,0,0,1
+123,26-39,male,minority,0-9y,none,poverty,768,0,after 2015,0,,443716,10000.0,SUV,0,0,1,0
+124,40-64,female,minority,20-29y,postgraduate,working class,348,1,before 2015,1,,296554,10000.0,sports car,3,1,0,1
+125,16-25,male,majority,0-9y,high school,poverty,383,0,before 2015,1,3.0,561793,5000.0,sports car,0,0,1,1
+126,65+,male,majority,0-9y,none,poverty,660,0,after 2015,0,,601175,10000.0,sedan,0,1,0,0
+127,26-39,female,majority,10-19y,none,poverty,447,1,after 2015,0,0.0,884626,,truck,1,0,1,1
+128,16-25,female,minority,10-19y,postgraduate,poverty,641,0,after 2015,1,0.0,751845,15000.0,sedan,2,0,1,1
+129,65+,male,minority,20-29y,postgraduate,working class,775,0,after 2015,1,3.0,295247,10000.0,sports car,1,0,0,0
+130,65+,male,minority,10-19y,high school,poverty,362,1,before 2015,0,3.0,650449,25000.0,SUV,2,0,1,1
+131,65+,female,majority,20-29y,postgraduate,working class,659,0,after 2015,0,3.0,346243,5000.0,sedan,1,0,0,1
+132,16-25,female,minority,10-19y,university,working class,626,1,after 2015,1,2.0,611084,15000.0,sedan,0,0,0,0
+133,16-25,female,minority,0-9y,postgraduate,middle class,440,1,before 2015,1,,117634,5000.0,SUV,1,0,0,0
+134,16-25,female,minority,20-29y,university,upper class,514,1,after 2015,1,3.0,903447,15000.0,sedan,0,0,1,0
+135,40-64,male,minority,20-29y,high school,upper class,734,0,before 2015,1,1.0,966965,25000.0,SUV,0,0,0,0
+136,16-25,female,majority,0-9y,high school,working class,617,0,before 2015,0,1.0,149105,5000.0,truck,1,0,0,0
+137,16-25,female,majority,20-29y,high school,middle class,331,0,before 2015,1,0.0,963664,20000.0,SUV,2,0,0,1
+138,16-25,male,minority,20-29y,high school,working class,584,1,after 2015,1,,168389,,truck,0,0,0,0
+139,40-64,female,majority,10-19y,high school,working class,604,0,after 2015,0,3.0,640303,,SUV,0,0,0,0
+140,16-25,male,majority,20-29y,university,working class,728,1,before 2015,1,1.0,192579,15000.0,sports car,1,1,1,1
+141,65+,female,minority,30y+,university,middle class,776,1,after 2015,0,,789116,20000.0,sports car,0,0,0,0
+142,16-25,female,minority,0-9y,high school,upper class,585,0,after 2015,1,0.0,664679,5000.0,truck,0,1,0,1
+143,65+,female,majority,10-19y,postgraduate,middle class,443,1,before 2015,1,2.0,385856,20000.0,truck,1,0,0,0
+144,65+,male,minority,10-19y,none,poverty,723,0,before 2015,0,,191659,20000.0,sports car,2,0,1,1
+145,65+,male,majority,30y+,high school,middle class,318,0,after 2015,0,,157994,5000.0,truck,1,0,0,1
+146,40-64,female,minority,0-9y,postgraduate,middle class,317,0,before 2015,1,2.0,305769,25000.0,SUV,3,0,0,1
+147,40-64,male,majority,0-9y,none,middle class,670,0,after 2015,1,,258286,20000.0,SUV,0,0,1,0
+148,40-64,male,minority,10-19y,high school,middle class,474,0,after 2015,1,0.0,871149,20000.0,sports car,1,1,0,1
+149,16-25,male,majority,20-29y,high school,upper class,493,1,after 2015,0,0.0,551001,25000.0,sedan,0,0,1,1
+150,65+,male,majority,10-19y,university,poverty,801,1,after 2015,1,2.0,893854,20000.0,SUV,1,0,2,1
+151,40-64,male,majority,0-9y,none,upper class,412,1,before 2015,0,3.0,842297,20000.0,truck,1,0,0,1
+152,40-64,male,minority,30y+,none,upper class,413,0,before 2015,0,1.0,642016,20000.0,sedan,1,0,0,0
+153,16-25,female,majority,10-19y,postgraduate,middle class,521,0,before 2015,1,3.0,998851,,sedan,1,0,0,0
+154,40-64,female,majority,0-9y,university,working class,563,0,before 2015,0,,628647,10000.0,SUV,1,1,1,1
+155,16-25,male,minority,10-19y,university,working class,354,1,after 2015,1,1.0,427253,25000.0,SUV,4,0,0,1
+156,26-39,female,minority,20-29y,university,upper class,757,0,after 2015,1,2.0,357682,20000.0,sedan,2,0,1,1
+157,40-64,female,majority,10-19y,university,upper class,461,1,before 2015,1,2.0,194019,,sedan,1,0,0,0
+158,26-39,female,majority,10-19y,none,middle class,679,1,after 2015,1,1.0,486602,25000.0,sports car,1,0,0,1
+159,16-25,female,minority,0-9y,none,upper class,386,0,after 2015,1,0.0,394055,15000.0,truck,0,0,0,1
+160,65+,male,minority,0-9y,high school,middle class,354,0,after 2015,0,1.0,751177,15000.0,sports car,0,0,1,1
+161,40-64,female,minority,0-9y,high school,working class,775,1,before 2015,0,,329105,20000.0,SUV,0,0,0,0
+162,16-25,female,minority,10-19y,university,working class,477,0,before 2015,1,0.0,942187,,sports car,0,1,0,1
+163,65+,male,minority,20-29y,university,poverty,690,1,before 2015,1,2.0,293511,,sports car,0,1,0,0
+164,65+,male,majority,30y+,university,working class,648,0,after 2015,0,1.0,209848,25000.0,sports car,1,0,1,1
+165,26-39,female,minority,30y+,high school,upper class,307,0,before 2015,0,3.0,544718,25000.0,sports car,1,0,0,1
+166,16-25,female,majority,0-9y,postgraduate,working class,612,1,before 2015,0,3.0,554163,,truck,0,0,1,1
+167,65+,female,majority,0-9y,postgraduate,middle class,742,0,before 2015,0,,924900,25000.0,truck,2,0,0,1
+168,40-64,female,majority,10-19y,high school,working class,627,1,before 2015,1,3.0,396038,,sedan,2,0,0,1
+169,40-64,female,minority,30y+,high school,poverty,353,0,before 2015,1,1.0,176330,10000.0,SUV,0,0,1,1
+170,26-39,female,majority,0-9y,high school,working class,538,1,before 2015,0,1.0,131008,,sports car,2,0,0,0
+171,65+,male,majority,20-29y,high school,middle class,528,1,after 2015,1,3.0,794893,15000.0,sedan,1,0,1,0
+172,16-25,female,minority,20-29y,high school,middle class,350,0,after 2015,0,1.0,416398,25000.0,sedan,1,1,0,1
+173,40-64,female,majority,0-9y,high school,upper class,563,1,before 2015,1,,112324,,sedan,2,0,0,1
+174,65+,male,majority,0-9y,university,working class,717,0,before 2015,0,0.0,997768,,truck,0,0,0,0
+175,65+,male,minority,30y+,university,middle class,395,0,after 2015,1,,212357,25000.0,sports car,0,1,1,1
+176,26-39,male,majority,30y+,university,poverty,387,0,after 2015,0,,735233,10000.0,sports car,1,0,0,0
+177,40-64,male,majority,10-19y,university,upper class,377,1,before 2015,0,1.0,304452,10000.0,SUV,1,0,1,1
+178,40-64,female,majority,30y+,high school,poverty,587,1,before 2015,1,0.0,378601,25000.0,sports car,1,0,0,1
+179,16-25,female,minority,20-29y,postgraduate,working class,419,0,before 2015,0,1.0,655656,5000.0,sports car,1,0,0,1
+180,40-64,female,minority,20-29y,none,working class,790,0,before 2015,1,2.0,154625,25000.0,sedan,1,0,0,1
+181,16-25,female,minority,0-9y,high school,working class,751,1,after 2015,1,1.0,503323,25000.0,SUV,2,0,0,1
+182,40-64,female,majority,30y+,none,upper class,799,0,before 2015,0,1.0,334566,10000.0,sports car,0,0,1,0
+183,26-39,female,majority,10-19y,postgraduate,middle class,464,0,before 2015,1,1.0,168009,10000.0,truck,0,0,0,0
+184,40-64,male,minority,20-29y,university,upper class,481,1,before 2015,1,0.0,477540,25000.0,sports car,0,1,1,1
+185,16-25,female,majority,20-29y,postgraduate,poverty,768,0,before 2015,1,1.0,216493,25000.0,sedan,2,0,0,0
+186,16-25,male,majority,10-19y,high school,upper class,306,1,after 2015,1,0.0,172241,25000.0,truck,2,0,0,1
+187,26-39,male,minority,10-19y,university,poverty,629,0,after 2015,1,3.0,426460,10000.0,sedan,0,1,0,0
+188,40-64,female,minority,20-29y,high school,upper class,450,1,after 2015,0,2.0,825948,25000.0,sports car,2,1,0,1
+189,40-64,male,majority,20-29y,university,middle class,384,0,before 2015,1,0.0,372901,25000.0,truck,0,0,0,1
+190,26-39,female,majority,10-19y,none,poverty,446,0,before 2015,1,3.0,561228,20000.0,SUV,2,0,0,0
+191,40-64,male,majority,20-29y,none,working class,680,1,after 2015,1,0.0,398523,5000.0,SUV,1,1,1,1
+192,40-64,female,minority,0-9y,none,working class,847,0,before 2015,1,0.0,235328,15000.0,truck,0,2,1,1
+193,16-25,male,minority,0-9y,postgraduate,upper class,584,1,before 2015,1,2.0,749992,5000.0,truck,0,0,1,0
+194,40-64,female,minority,10-19y,high school,working class,381,0,after 2015,0,,942982,20000.0,sedan,2,1,1,1
+195,40-64,female,minority,30y+,postgraduate,poverty,813,1,after 2015,1,,265576,15000.0,truck,1,0,0,1
+196,26-39,female,majority,10-19y,none,working class,822,1,after 2015,0,0.0,960227,25000.0,sedan,1,0,0,0
+197,26-39,female,minority,10-19y,high school,middle class,685,1,after 2015,0,1.0,599500,20000.0,sports car,1,0,1,1
+198,65+,female,minority,30y+,none,middle class,770,1,before 2015,0,3.0,593949,25000.0,sedan,1,1,0,1
+199,16-25,male,minority,30y+,postgraduate,upper class,418,0,before 2015,0,1.0,407258,10000.0,truck,2,0,0,1
+200,40-64,male,minority,30y+,postgraduate,poverty,695,0,after 2015,1,1.0,698358,,truck,2,0,0,1
+201,40-64,male,minority,0-9y,postgraduate,middle class,831,1,before 2015,0,0.0,329190,20000.0,sports car,1,0,0,0
+202,65+,female,majority,20-29y,none,middle class,560,1,after 2015,0,0.0,498466,10000.0,truck,0,1,0,0
+203,40-64,male,majority,0-9y,high school,poverty,555,1,after 2015,1,0.0,351052,20000.0,truck,1,0,3,1
+204,16-25,female,minority,20-29y,high school,working class,525,0,before 2015,1,0.0,749830,20000.0,SUV,0,0,2,1
+205,65+,female,majority,0-9y,none,working class,352,0,after 2015,1,,813937,10000.0,SUV,1,0,1,1
+206,16-25,male,minority,20-29y,high school,upper class,799,0,before 2015,0,0.0,611779,15000.0,sports car,3,1,1,1
+207,65+,male,minority,0-9y,none,working class,805,0,before 2015,1,,880642,5000.0,sedan,0,0,0,0
+208,65+,female,majority,30y+,high school,poverty,663,1,before 2015,1,,371831,25000.0,SUV,1,0,0,1
+209,26-39,male,majority,10-19y,university,middle class,579,1,before 2015,0,0.0,605630,20000.0,sedan,2,1,3,1
+210,16-25,female,minority,0-9y,university,working class,457,1,after 2015,1,2.0,415508,25000.0,truck,1,0,0,1
+211,40-64,female,minority,20-29y,postgraduate,upper class,358,0,before 2015,1,3.0,459688,,SUV,2,0,0,1
+212,40-64,female,minority,30y+,university,working class,427,0,after 2015,1,1.0,756022,10000.0,sports car,1,1,0,1
+213,16-25,female,majority,0-9y,university,poverty,414,0,after 2015,1,,275916,25000.0,sports car,4,0,0,1
+214,40-64,female,minority,0-9y,university,upper class,508,1,after 2015,0,3.0,719962,10000.0,sports car,2,0,0,0
+215,40-64,male,minority,30y+,none,working class,825,1,after 2015,1,2.0,554180,25000.0,SUV,1,0,0,0
+216,16-25,male,minority,0-9y,university,upper class,820,0,before 2015,1,1.0,142829,5000.0,sedan,2,0,0,1
+217,65+,female,majority,10-19y,university,poverty,536,1,before 2015,0,1.0,935037,5000.0,truck,0,1,1,1
+218,16-25,female,minority,0-9y,postgraduate,middle class,580,0,after 2015,1,,372671,5000.0,sedan,1,0,1,0
+219,65+,male,minority,10-19y,university,poverty,658,0,after 2015,0,0.0,955343,5000.0,sedan,1,0,0,0
+220,40-64,male,majority,10-19y,university,poverty,500,1,before 2015,1,2.0,125593,5000.0,truck,0,0,0,0
+221,40-64,female,minority,30y+,high school,poverty,577,0,after 2015,0,,391127,5000.0,truck,1,0,0,0
+222,40-64,male,minority,0-9y,postgraduate,poverty,534,1,before 2015,0,2.0,886640,10000.0,SUV,3,1,0,1
+223,26-39,female,majority,30y+,postgraduate,middle class,793,0,after 2015,0,0.0,332042,20000.0,SUV,1,0,1,0
+224,65+,male,minority,0-9y,postgraduate,middle class,303,1,before 2015,0,0.0,450878,25000.0,SUV,0,0,0,0
+225,26-39,female,majority,0-9y,postgraduate,upper class,741,1,after 2015,1,,854297,5000.0,SUV,0,0,0,0
+226,26-39,male,majority,20-29y,postgraduate,working class,328,1,after 2015,0,0.0,224983,10000.0,SUV,0,0,2,1
+227,16-25,female,minority,0-9y,postgraduate,middle class,408,0,before 2015,1,3.0,356912,10000.0,truck,2,0,0,0
+228,26-39,male,minority,30y+,none,middle class,374,0,after 2015,0,1.0,168620,10000.0,sedan,4,1,2,1
+229,16-25,male,minority,10-19y,university,working class,445,1,after 2015,0,,784689,20000.0,SUV,1,0,1,1
+230,16-25,female,minority,0-9y,postgraduate,middle class,427,1,before 2015,0,2.0,408624,25000.0,SUV,1,1,2,1
+231,26-39,male,majority,20-29y,university,poverty,341,0,after 2015,1,3.0,601644,20000.0,sedan,1,0,0,0
+232,65+,female,minority,30y+,university,poverty,655,0,before 2015,0,,251176,15000.0,SUV,2,0,1,0
+233,65+,male,majority,0-9y,none,working class,340,0,before 2015,1,0.0,270964,10000.0,sedan,1,0,0,1
+234,65+,female,minority,30y+,postgraduate,upper class,333,1,after 2015,1,0.0,241827,15000.0,sedan,1,0,1,1
+235,65+,male,minority,20-29y,high school,upper class,316,0,after 2015,1,0.0,855344,,truck,2,0,0,1
+236,65+,female,minority,20-29y,none,working class,452,0,after 2015,1,0.0,967870,5000.0,sports car,0,0,0,1
+237,26-39,male,majority,30y+,high school,working class,677,1,after 2015,1,2.0,198541,5000.0,truck,1,1,0,0
+238,26-39,female,minority,0-9y,university,poverty,641,0,after 2015,1,3.0,959415,20000.0,sports car,2,0,0,0
+239,40-64,male,minority,10-19y,university,upper class,326,0,after 2015,1,1.0,727036,25000.0,sports car,1,0,0,1
+240,65+,female,minority,20-29y,none,middle class,586,0,after 2015,1,2.0,286995,15000.0,sports car,1,0,0,1
